@@ -1,0 +1,25 @@
+.breadcrumb {
+  background-color: #EF463C;
+  //background-color: #5a2c71;
+  color: white;
+  padding: 5px 10px;
+  
+  a {
+    //text-decoration: underline;
+    cursor: pointer;
+  }
+  .userAgent {
+    color: white;
+    float: right;
+    background-color: #EF463C;
+  }
+}
+.empty {
+  color: white;
+}
+
+:global {
+  [class*="MobileUpsellView_"] {
+    display: none !important;
+  }
+}
